@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Ce script sert à voir si il y a des operateurs binaire et plus en fin de ligne dans les fichiers lors de la finition d'un projet.
+
+echo "===== grep [=] begin_line ====="
+grep -n $'\t=' "$1"/*.c
+echo "\n===== grep [,] end_line ====="
+grep -n ",$" "$1"/*.c
+echo "\n===== grep [&&] end_line ====="
+grep -n "&&$" "$1"/*.c
+echo "\n===== grep [||] end_line ====="
+grep -n "||$" "$1"/*.c
+echo "\n===== grep [-] end_line ====="
+grep -n "\-$" "$1"/*.c
+echo "\n===== grep [+] end_line ====="
+grep -n "+$" "$1"/*.c
+echo "\n===== grep [*] end_line ====="
+grep -n "*$" "$1"/*.c

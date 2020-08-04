@@ -1,0 +1,2 @@
+# avec les privileges de root :
+fdisk -l

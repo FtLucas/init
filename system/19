@@ -1,0 +1,3 @@
+ls -l /etc/init.d/ 
+
+# et ce sont des scripts

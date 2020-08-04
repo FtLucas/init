@@ -1,0 +1,5 @@
+# Quel est le fichier contenant les entrées locales DNS ?
+# le fichier ou les entrees locales DNS sont stocke est le fichier /etc/hosts
+# il se trouve a la base dans les systems unix sous /etc/hosts
+
+echo "/etc/hosts"

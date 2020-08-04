@@ -1,0 +1,5 @@
+# Grace a la commande precedante
+# On peut trouver le materiel qui fait le lien entre moi et l'exterieure
+# C'est ce m'atteriel qui s'occupe de de transphormer mon adresse ip en une autre pour l'exterieure
+
+nat-1 (10.60.1.11)

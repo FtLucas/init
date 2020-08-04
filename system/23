@@ -1,0 +1,3 @@
+pour que le nouvel utilisateur puisse ce connecteren session graphique ou ssh il doit faire :
+
+ssh utilisateur@nom_machine

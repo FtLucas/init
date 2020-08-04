@@ -1,0 +1,3 @@
+# le fichier se trouve dans le repertoire /etc/debian_version
+
+cat /etc/debian_version
